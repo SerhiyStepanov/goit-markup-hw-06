@@ -60,11 +60,15 @@
           эффективные решения<br />
           для вашего бизнеса
         </h1>
-        <a class="hero-link" href="">Заказать услугу</a>
+        <button type="button" data-modal-open>
+          <a class="hero-link" href="">Заказать услугу</a>
+        </button>
 
-        <div class="backdrop">
+        <div class="backdrop is-hidden" data-modal>
           <div class="modal">
+            <b class="text">Оставьте свои данные, мы вам перезвоним</b>
             <form></form>
+            <button data-modal-close>закрыть</button>
           </div>
         </div>
       </section>
@@ -433,5 +437,6 @@
       </div>
       <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
