@@ -60,14 +60,39 @@
           эффективные решения<br />
           для вашего бизнеса
         </h1>
-        <button class="hero-button" type="button" data-modal-open>
+        <button class="hero-button open" type="button" data-modal-open>
           Заказать услугу
         </button>
 
         <div class="backdrop is-hidden" data-modal>
           <div class="modal">
             <b class="text">Оставьте свои данные, мы вам перезвоним</b>
-            <form></form>
+            <form>
+              <div class="form-field">
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" />
+              </div>
+
+              <div class="form-field">
+                <label for="tel">Телефон</label>
+                <input type="tel" name="tel" id="tel" />
+              </div>
+
+              <div class="form-field">
+                <label for="mail">Почта</label>
+                <input type="email" name="mail" id="mail" />
+              </div>
+
+              <div class="form-coment">
+                <label for="coment">Комментарий</label>
+                <textarea name="coment" id="coment"></textarea>
+              </div>
+
+              <p>
+                Соглашаюсь с рассылкой и принимаю<a href="">Условия договора</a>
+              </p>
+              <button class="hero-button close" type="submit">Отправить</button>
+            </form>
             <button data-modal-close>закрыть</button>
           </div>
         </div>
