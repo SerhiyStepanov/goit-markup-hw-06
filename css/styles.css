@@ -333,6 +333,13 @@ img {
   width: 30px;
   height: 30px;
 }
+
+.icon-close {
+  display: block;
+  width: 11px;
+  height: 11px;
+  fill: 000;
+}
 /* секция детали */
 
 .section-detail {
