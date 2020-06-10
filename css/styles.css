@@ -257,7 +257,7 @@ img {
   padding: 10px 32px;
 }
 
-.hero-button.close {
+.hero-button.send {
   padding: 10px 55px;
 }
 
@@ -326,6 +326,12 @@ img {
   display: block;
   width: 448px;
   height: 120px;
+}
+
+.modal .close {
+  display: block;
+  width: 30px;
+  height: 30px;
 }
 /* секция детали */
 
