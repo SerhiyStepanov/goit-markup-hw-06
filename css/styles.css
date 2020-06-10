@@ -344,9 +344,15 @@ img {
 
 .agree-send::before {
   position: absolute;
+  top: 50%;
+  left: 24px;
   content: "";
-  top: 0;
-  left: 0;
+  width: 16px;
+  height: 15px;
+
+  transform: translateY(-50%);
+  background-image: url(../images/Vector11.svg);
+  z-index: -1;
 }
 
 .agree-send {
@@ -360,6 +366,7 @@ img {
 .agree-send input {
   display: block;
   margin-right: 8px;
+  border: 0;
 }
 
 .condition {
