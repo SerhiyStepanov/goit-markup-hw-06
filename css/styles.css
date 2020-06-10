@@ -342,8 +342,24 @@ img {
   border: 0;
 }
 
+.agree-send::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+}
+
 .agree-send {
+  position: relative;
+  display: flex;
+  justify-content: center;
   margin-bottom: 30px;
+  outline: 1px solid red;
+}
+
+.agree-send input {
+  display: block;
+  margin-right: 8px;
 }
 
 .condition {
@@ -867,6 +883,7 @@ footer {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
+  border: 0;
   border-radius: 4px;
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
