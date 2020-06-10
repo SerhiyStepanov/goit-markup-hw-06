@@ -346,6 +346,10 @@ img {
   margin-bottom: 30px;
 }
 
+.condition {
+  color: var(--acent-color);
+}
+
 .modal .close {
   position: absolute;
   top: 0;
