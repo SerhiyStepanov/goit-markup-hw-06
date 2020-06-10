@@ -339,10 +339,11 @@ img {
 }
 
 .form-coment textarea {
+  width: 100%;
   border: 0;
 }
 
-.agree-send::before {
+.form-agree::before {
   position: absolute;
   top: 50%;
   left: 24px;
@@ -355,15 +356,18 @@ img {
   z-index: -1;
 }
 
-.agree-send {
+.form-agree[type="chekbox"] {
+  border: 0;
+}
+
+.form-agree {
   position: relative;
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
-  outline: 1px solid red;
 }
 
-.agree-send input {
+.form-agree input {
   display: block;
   margin-right: 8px;
   border: 0;
