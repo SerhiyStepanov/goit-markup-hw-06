@@ -281,11 +281,17 @@ img {
   pointer-events: none;
 }
 
+.backdrop.is-hidden .modal {
+  transform: translate(-50%, -50%) scale(0.6);
+  transition: transform 250ms var(--cubic);
+}
+
 .modal {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 250ms var(--cubic);
   padding: 40px;
 
   width: 528px;
@@ -356,7 +362,7 @@ img {
   z-index: -1;
 }
 
-.form-agree[type="chekbox"] {
+.form-agree [type="chekbox"] {
   border: 0;
 }
 
