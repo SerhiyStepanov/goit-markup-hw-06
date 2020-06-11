@@ -315,12 +315,10 @@ img {
 }
 
 .modal .form-field {
-  display: flex;
-  align-items: center;
+  position: relative;
   margin-bottom: 28px;
   padding-top: 12px;
   padding-bottom: 12px;
-  padding-left: 16px;
   width: 100%;
   height: 40px;
   text-align: start;
@@ -328,8 +326,28 @@ img {
   border-radius: 4px;
 }
 
-.form-field input {
+.form-input {
+  display: block;
+  padding-left: 42px;
+  width: 388px;
   border: 0;
+}
+
+.form-label {
+  position: absolute;
+  top: 50%;
+  left: 42px;
+  transform: translateY(-50%);
+}
+
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+  fill: var(--title-text-color);
+  width: 18px;
+  height: 18px;
 }
 
 .form-coment {
@@ -349,25 +367,7 @@ img {
   border: 0;
 }
 
-.form-agree::before {
-  position: absolute;
-  top: 50%;
-  left: 24px;
-  content: "";
-  width: 16px;
-  height: 15px;
-
-  transform: translateY(-50%);
-  background-image: url(../images/Vector11.svg);
-  z-index: -1;
-}
-
-.form-agree [type="chekbox"] {
-  border: 0;
-}
-
 .form-agree {
-  position: relative;
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
