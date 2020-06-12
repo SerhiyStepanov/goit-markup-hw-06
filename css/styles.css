@@ -339,8 +339,9 @@ img {
   top: 50%;
   left: 42px;
   transform: translateY(-50%);
-  color: var(--primary-text-coor);
   transition: transform 250ms var(--cubic);
+
+  color: var(--primary-text-coor);
 }
 
 .form-input:focus + .form-label,
