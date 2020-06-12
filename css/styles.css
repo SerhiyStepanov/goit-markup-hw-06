@@ -387,6 +387,10 @@ img {
   left: 16px;
 }
 
+.coment-textarea:focus {
+  border: 1px solid var(--acent-color);
+}
+
 .coment-textarea:focus + .coment-label,
 .coment-textarea:not(:placeholder-shown) + .coment-label {
   color: var(--acent-color);
