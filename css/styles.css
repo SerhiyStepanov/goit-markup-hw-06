@@ -399,26 +399,13 @@ img {
   transform: translateY(-35px);
 }
 
-.form-agree {
-  position: relative;
-  margin-bottom: 30px;
+.checkbox-lable {
 }
 
 .checkbox {
-  display: none;
+  display: block;
   margin-right: 8px;
   border: 0;
-}
-
-.check {
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 16px;
-  height: 15px;
-  fill: var(--title-text-color);
-  outline: 1px solid red;
 }
 
 .agree-link {
@@ -908,9 +895,7 @@ footer {
 
 .button-primary {
   display: flex;
-  padding-top: 18px;
-  padding-bottom: 18px;
-  padding-left: 12px;
+  padding: 0;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 
@@ -924,7 +909,12 @@ footer {
   background-color: var(--primary-footer-color);
 }
 
-.registr input {
+.button-primary-label {
+  padding-left: 16px;
+}
+
+.button-primary-input {
+  width: 100%;
   background-color: var(--primary-footer-color);
   border: none;
   color: rgba(255, 255, 255, 0.6);

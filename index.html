@@ -120,25 +120,18 @@
                 <label class="coment-label" for="coment">Комментарий</label>
               </div>
 
-              <div class="form-agree">
-                <input
-                  class="checkbox"
-                  type="checkbox"
-                  name="agree"
-                  value="agree"
-                  id="agree"
-                />
-                <label class="checkbox-label" for="agree"
-                  >Соглашаюсь с рассылкой и принимаю<a
-                    class="agree-link"
-                    href=""
-                    >Условия договора</a
-                  ></label
-                >
-                <svg class="check">
-                  <use href="./images/"></use>
-                </svg>
-              </div>
+              <input
+                class="checkbox"
+                type="checkbox"
+                name="agree"
+                value="agree"
+                id="agree"
+              />
+              <label class="checkbox-label" for="agree"
+                >Соглашаюсь с рассылкой и принимаю<a class="agree-link" href=""
+                  >Условия договора</a
+                ></label
+              >
 
               <button class="hero-button send" type="submit">Отправить</button>
             </form>
@@ -497,8 +490,13 @@
             <ul class="registr">
               <li class="list element">
                 <button class="button-primary item" type="button">
-                  <label for="mail">E-mail</label>
-                  <input type="email" name="mail" id="mail" />
+                  <label class="button-primary-label" for="mail">E-mail</label>
+                  <input
+                    class="button-primary-input"
+                    type="email"
+                    name="mail"
+                    id="mail"
+                  />
                 </button>
               </li>
               <li class="list element">
