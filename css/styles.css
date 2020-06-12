@@ -317,19 +317,17 @@ img {
 .modal .form-field {
   position: relative;
   margin-bottom: 28px;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  width: 100%;
+  height: 40px;
+}
+
+.form-input {
+  display: inline-block;
+  padding-left: 42px;
   width: 100%;
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-}
-
-.form-input {
-  display: block;
-  padding-left: 42px;
-  width: 388px;
-  border: 0;
 }
 
 .form-label {
@@ -338,6 +336,10 @@ img {
   left: 42px;
   transform: translateY(-50%);
   color: var(--primary-text-coor);
+}
+
+.form-input:focus {
+  border: 1px solid var(--acent-color);
 }
 
 .form-input:focus + .form-label {
