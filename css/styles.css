@@ -336,13 +336,15 @@ img {
   left: 42px;
   transform: translateY(-50%);
   color: var(--primary-text-coor);
+  transition: transform 250ms var(--cubic);
 }
 
 .form-input:focus {
   border: 1px solid var(--acent-color);
 }
 
-.form-input:focus + .form-label {
+.form-input:focus + .form-label,
+.form-input:not(:placeholder-shown) + .form-label {
   transform: translate(-26px, -40px);
   color: var(--acent-color);
 }
