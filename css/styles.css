@@ -349,6 +349,10 @@ img {
   color: var(--acent-color);
 }
 
+.form-input:focus ~ .form-icon {
+  fill: var(--acent-color);
+}
+
 .form-icon {
   position: absolute;
   top: 50%;
