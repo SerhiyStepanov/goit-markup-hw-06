@@ -400,6 +400,7 @@ img {
 }
 
 .form-check {
+  position: relative;
   margin-bottom: 30px;
 }
 
@@ -409,12 +410,6 @@ img {
 
 .check-text {
   color: var(--primary-text-coor);
-}
-
-.checkbox-icon {
-  display: block;
-  width: 16px;
-  height: 15px;
 }
 
 /* .checkbox {
