@@ -399,16 +399,32 @@ img {
   transform: translateY(-35px);
 }
 
-.checkbox-lable {
+.form-check {
+  margin-bottom: 30px;
 }
 
-.checkbox {
+.checkbox-labe {
   display: block;
-  margin-right: 8px;
-  border: 0;
 }
 
-.agree-link {
+.check-text {
+  color: var(--primary-text-coor);
+}
+
+.checkbox-icon {
+  display: block;
+  width: 16px;
+  height: 15px;
+}
+
+/* .checkbox {
+  position: absolute;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+} */
+
+.check-link {
   color: var(--acent-color);
 }
 
