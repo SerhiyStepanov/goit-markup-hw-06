@@ -385,6 +385,8 @@ img {
   position: absolute;
   top: 12px;
   left: 16px;
+  transform: translateY(0);
+  transition: transform 250ms var(--cubic);
 }
 
 .coment-textarea:focus {
