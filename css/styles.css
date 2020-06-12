@@ -400,18 +400,28 @@ img {
 }
 
 .form-agree {
-  display: flex;
-  justify-content: center;
+  position: relative;
   margin-bottom: 30px;
 }
 
-.form-agree input {
-  display: block;
+.checkbox {
+  display: none;
   margin-right: 8px;
   border: 0;
 }
 
-.condition {
+.check {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 15px;
+  fill: var(--title-text-color);
+  outline: 1px solid red;
+}
+
+.agree-link {
   color: var(--acent-color);
 }
 
