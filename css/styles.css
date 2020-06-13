@@ -421,6 +421,7 @@ img {
   height: 16px;
   transform: translateY(-50%);
   background-image: url(../images/check-blue.svg);
+  background-size: contain;
   background-origin: border-box;
 }
 
