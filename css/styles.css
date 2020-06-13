@@ -418,12 +418,13 @@ img {
   top: 50%;
   left: 12px;
   width: 16px;
-  height: 16px;
+  height: 15px;
   transform: translateY(-50%);
   background-image: url(../images/check-blue.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-origin: border-box;
+  transition: background-image 250ms var(--cubic);
 }
 
 .checkbox:checked ~ .check-icon {
@@ -443,7 +444,7 @@ img {
   top: 50%;
   left: 12px;
   width: 16px;
-  height: 16px;
+  height: 15px;
   transform: translateY(-50%);
 }
 
