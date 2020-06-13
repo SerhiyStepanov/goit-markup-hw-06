@@ -947,11 +947,11 @@ footer {
   background-color: var(--primary-footer-color);
 }
 
-.primary-label {
+.registr-label {
   padding-left: 16px;
 }
 
-.primary-input {
+.registr-input {
   width: 100%;
   background-color: var(--primary-footer-color);
   border: none;
