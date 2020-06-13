@@ -931,7 +931,7 @@ footer {
   margin-left: 12px;
 }
 
-.button-primary {
+.btn-primary {
   display: flex;
   padding: 0;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -947,11 +947,11 @@ footer {
   background-color: var(--primary-footer-color);
 }
 
-.button-primary-label {
+.btn-primary-label {
   padding-left: 16px;
 }
 
-.button-primary-input {
+.btn-primary-input {
   width: 100%;
   background-color: var(--primary-footer-color);
   border: none;
