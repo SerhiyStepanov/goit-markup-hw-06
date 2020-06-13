@@ -435,7 +435,9 @@ img {
   color: var(--primary-text-coor);
 }
 
-.check-link {
+.check-link > a {
+  display: inline-block;
+  padding-left: 4px;
   color: var(--acent-color);
 }
 
