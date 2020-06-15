@@ -955,7 +955,7 @@ footer {
 .subscribe-input {
   position: absolute;
   top: 50%;
-  left: 63px;
+  left: 65px;
   transform: translateY(-50%);
   min-width: 280px;
   background-color: var(--primary-footer-color);
