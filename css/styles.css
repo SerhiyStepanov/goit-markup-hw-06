@@ -932,27 +932,32 @@ footer {
 }
 
 .primary {
-  display: flex;
-  padding: 0;
+  position: relative;
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 
   min-width: 358px;
   height: 50px;
   font-size: 16px;
-  line-height: 1.9;
-  align-items: center;
+  line-height: 1.2;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
   background-color: var(--primary-footer-color);
 }
 
 .subscribe-label {
-  padding-left: 16px;
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
 }
 
 .subscribe-input {
-  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 63px;
+  transform: translateY(-50%);
+  min-width: 280px;
   background-color: var(--primary-footer-color);
   border: none;
   color: rgba(255, 255, 255, 0.6);
