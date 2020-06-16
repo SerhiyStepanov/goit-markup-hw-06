@@ -86,11 +86,11 @@ img {
   align-items: center;
 }
 
-/* лого */
-
 .page-header {
   background-color: var(--primary-white-color);
 }
+
+/* лого */
 .logo {
   color: var(--acent-color);
 }
