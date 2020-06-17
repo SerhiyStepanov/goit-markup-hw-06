@@ -789,8 +789,6 @@ img {
 
 /* -----  футер  ------ */
 
-/*  футер  логотип */
-
 footer {
   background-color: var(--primary-footer-color);
 }
@@ -812,8 +810,10 @@ footer {
 
 .foot .right {
   padding-top: 56px;
-  margin-left: 94px;
+  margin-left: auto;
 }
+
+/*  футер  логотип */
 
 .page-footer .logo {
   margin-bottom: 10px;
@@ -911,21 +911,11 @@ footer {
   height: 20px;
 }
 
-.copyright {
-  padding-top: 18px;
-  padding-bottom: 21px;
-  font-size: 12px;
-  line-height: 2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.4);
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-}
-
 /* футер  button  */
 
 .subscribe {
   display: inline-flex;
+  width: 100%;
 }
 
 .subscribe-label {
@@ -960,6 +950,7 @@ footer {
   padding-right: 28px;
   padding-bottom: 10px;
   padding-left: 29px;
+  min-width: 200px;
   height: 50px;
   margin-left: 12px;
 
@@ -980,6 +971,19 @@ footer {
   height: 24px;
   margin-left: 10px;
   fill: var(--background-first);
+}
+
+/*   копирайт */
+
+.copyright {
+  padding-top: 18px;
+  padding-bottom: 21px;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.4);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /*   портфолио  фильтр */
