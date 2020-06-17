@@ -923,6 +923,10 @@ footer {
 
 /* футер  button  */
 
+.subscribe {
+  display: inline-block;
+}
+
 .subscribe-label {
   display: flex;
   align-items: center;
