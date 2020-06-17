@@ -796,6 +796,7 @@ footer {
 }
 
 .foot {
+  position: relative;
   display: flex;
 }
 
@@ -924,7 +925,7 @@ footer {
 /* футер  button  */
 
 .subscribe {
-  display: inline-block;
+  display: inline-flex;
 }
 
 .subscribe-label {
@@ -960,6 +961,7 @@ footer {
   padding-bottom: 10px;
   padding-left: 29px;
   height: 50px;
+  margin-left: 12px;
 
   font-weight: 900;
   font-size: 16px;
@@ -970,6 +972,7 @@ footer {
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   background-color: var(--acent-color);
+  cursor: pointer;
 }
 
 .icon-iconsend {
