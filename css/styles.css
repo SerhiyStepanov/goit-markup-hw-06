@@ -802,23 +802,26 @@ footer {
 
 .foot .left {
   margin-right: 69px;
-  padding-top: 48px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .foot .center {
-  padding-top: 56px;
-  padding-bottom: 56px;
+  padding-top: 72px;
+  padding-bottom: 100px;
 }
 
 .foot .right {
-  padding-top: 56px;
+  padding-top: 72px;
+  padding-bottom: 94px;
   margin-left: auto;
 }
 
 /*  футер  логотип */
 
 .page-footer .logo {
-  margin-bottom: 10px;
+  display: block;
+  margin-bottom: 20px;
 
   font-weight: 700;
   font-size: 22px;
@@ -834,6 +837,7 @@ footer {
 }
 
 .page-footer .link {
+  display: inline-block;
   margin-top: 9px;
 
   font-size: 14px;
@@ -844,7 +848,7 @@ footer {
 
 .page-footer .text {
   display: block;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 
   font-weight: 700;
   font-size: 14px;
