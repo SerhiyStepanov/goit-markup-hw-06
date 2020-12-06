@@ -1050,8 +1050,8 @@ footer {
   transition: transform 250ms var(--cubic);
 }
 
-.cart .link:hover ::before,
-.cart .link:focus ::before {
+.cart .link:hover .product::before,
+.cart .link:focus .product::before {
   transform: translateY(0%);
 }
 
